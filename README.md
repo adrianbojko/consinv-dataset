@@ -2,11 +2,11 @@
 
 This repository contains the dataset corresponding to the BMVC 2022 paper "Self-Improving SLAM in Dynamic Environments: Learning When to Mask" with train/val/test splits. The paper itself, supplementary materials, poster and video are here: https://bmvc2022.mpi-inf.mpg.de/654/ . **ConsInv dataset includes 150 lossless sequences and over 85,000 pairs of stereo images!**
 
-ConsInv is a stereo RGB + IMU dataset designed for Dynamic SLAM testing and contains two subsets: ConsInv-Indoors and ConsInv-Outdoors.
+ConsInv is a stereo RGB + IMU dataset designed for Dynamic SLAM testing and contains two subsets:
 - **ConsInv-Indoors** contains sequences in an office setting where small objects are moved.
 - **ConsInv-Outdoors** contains sequences in an urban environment, where cars and/or people move.
 
-The novelty of ConsInv dataset is the controlled degree of difficulty, from easy to very hard, and the fact that the difficulty of the sequences comes only from object motion: relative motion between camera and object, motion ambiguity, challenging points of view when objects move. They do not come from motion speed, lack of features, lens flare, etc. - typically seen in other SLAM datasets.
+The novelty of ConsInv dataset is 1) the controlled degree of difficulty, from easy to very hard, and 2) the fact that the difficulty of the sequences comes only from object motion: relative motion between camera and object, motion ambiguity, challenging points of view when objects move. The difficulty does not come from motion speed, lack of features, lens flare, etc. - typically seen in other SLAM datasets.
 
 ![ConsInv Dataset](/consinv_dataset.png "ConsInv Dataset")
 <div align="center">
